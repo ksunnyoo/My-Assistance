@@ -1,0 +1,30 @@
+# ── 환경 변수 / 비밀 정보 (절대 커밋 금지) ──
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# ── 의존성 / 빌드 산출물 ──
+node_modules/
+dist/
+dist-ssr/
+.vercel/
+.netlify/
+
+# ── 로그 ──
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ── 에디터 / OS ──
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# ── 개인 테스트 데이터(직접 추가한 캡처, 토큰 덤프 등) ──
+*.session.json
+/local-notes/
