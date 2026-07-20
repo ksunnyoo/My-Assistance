@@ -47,8 +47,8 @@ my-ai-assistant/
 
 ```
                     ┌───────────────────┐
-                    │  classifyIntent    │  Gemini: 자연어 → intent 분류
-                    └─────────┬──────────┘
+                    │  classifyIntent   │  Gemini: 자연어 → intent 분류
+                    └─────────┬─────────┘
     ┌───────────┬─────────┬───┼─────┬───────────┬───────────┐
     ▼           ▼         ▼   ▼     ▼           ▼           ▼
 calendarRead calendarWrite gmailRead gmailDraft shareSummary briefing  (미해당 시 fallback)
